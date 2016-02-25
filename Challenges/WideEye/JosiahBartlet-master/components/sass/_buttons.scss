@@ -1,0 +1,51 @@
+._buttonBase {
+
+	width:100%;
+
+	&:hover {
+
+		//color: $offWhite;
+
+	}
+
+	@media (min-width: 480px) and (max-width: 767px) {
+
+			width: 100%;
+		}
+
+	@media (min-width: 768px) {
+
+			width: 50%;
+		
+		}
+
+}
+
+._btnBlue {
+
+	@extend ._buttonBase;
+
+	background-color: $campaignBluePrimary;
+
+	border-bottom:3px solid $campaignBlueDark;
+
+	font-family: sans-serif;
+	@include fontStandards('Source Sans Pro', 600);
+
+	font-size: 20px;
+
+}
+
+._btnRed {
+
+	@extend ._buttonBase;
+
+	background-color: $contributeRedPrimary;
+
+	border-bottom:3px solid $contributeRedDark;
+
+	font-family: sans-serif;
+	@include fontStandards('Source Sans Pro', 600);
+
+	font-size: 20px;
+}

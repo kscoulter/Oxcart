@@ -1,0 +1,307 @@
+// #_07, #_10, #_13, #_25, #_featured {
+	
+// 	opacity: .7;
+
+// }
+
+#main {
+
+	overflow: hidden;
+
+	height: 2000px;
+
+	@media only screen and (min-width: 480px) {
+
+	}
+
+	@media only screen and (min-width: 768px) {
+	
+
+
+	}
+
+	@media only screen and (min-width: 1140px) {
+
+	height: 1450px;
+
+	}
+
+	
+}
+
+#_07 {
+
+	._date {
+
+		z-index: 2;
+
+		@media only screen and (min-width: 768px) {
+			
+			position:relative;
+
+			top: 40px;
+
+			left: 25px;
+
+			height: 125px;
+		
+		}
+
+
+	}
+
+	._event {
+
+		z-index: 0;
+
+		@media only screen and (min-width: 768px) {
+			
+			
+			position:relative;
+
+			top: -100px;
+
+			left: 8px;
+		
+		}
+
+
+	}
+
+}
+
+#_10 {
+
+	width:670px;
+
+	background: url(../images/usmc.jpg) no-repeat;
+
+	background-size: contain;
+
+	.container {
+
+		width:670px;
+
+		margin-left: 0px;
+	}
+
+
+	@media only screen and (min-width: 1140px) {
+			
+			position: relative;
+
+			top: -527px;
+
+			left: 575px;
+
+			height: 410px;
+
+				._date {
+
+					position: relative;
+
+					top:28px;
+
+					left: 35px;
+
+				}
+
+				._day {
+
+					font-size: 55px;
+
+				}
+
+				._month {
+
+					position: relative;
+
+					font-size:22px;
+
+				}
+		
+		}
+
+
+
+	._event {
+
+
+	}
+
+}
+
+#_13 {
+
+	z-index: 2;
+
+	.container {
+
+		@media only screen and (min-width: 768px) {
+
+		width: 380px;
+
+		}
+
+	}
+
+	@media only screen and (min-width: 768px) {
+
+		width: 380px;
+
+		position: relative;
+
+		top: -575px;
+
+		left: 375px;
+
+	}
+
+	._date {
+
+		@media only screen and (min-width: 768px) {
+
+			z-index: 1;
+
+			position: relative;
+
+			left: 265px;
+
+			top: 150px;
+
+		}
+
+
+	}
+
+	._event {
+
+		@media only screen and (min-width: 768px) {
+
+			padding: 30px;
+
+			position: relative;
+
+			width: 300px;
+
+			height: 400px;
+
+			right: 15px;
+
+			top: -145px;
+
+		}
+
+
+	}
+
+}
+
+#_25 {
+
+	z-index: 1;
+
+	background: url(../images/christmas.jpg) no-repeat;
+
+	 background-size: contain;
+
+	.container {
+
+		width:700px;
+
+		margin-left: 0px;
+	}
+
+
+	@media only screen and (min-width: 1140px) {
+			
+			position: relative;
+
+			top: -1025px;
+
+			left: 120px;
+
+			height: 410px;
+		
+		}
+
+	._day {
+
+		font-size: 55px;
+
+	}
+
+	._month {
+
+		font-size:22px;
+
+	}
+}	
+
+#_featured {
+
+	z-index: 4;
+
+	visibility: hidden;
+
+	@media only screen and (min-width: 1140px) {
+
+		visibility: visible;
+
+		position: relative;
+
+		top: -1652px;
+
+		left: 550px;
+
+		a {
+
+			position: relative;
+
+			top: 25px;
+
+		&:hover {
+
+			text-decoration: none;
+
+		}
+		
+
+		._featuredHeadline {
+
+			font-size: 25px;
+
+			font-style: italic;
+
+		}
+
+		
+	}
+}
+
+}
+
+#_footer {
+
+	z-index: 0;
+
+	background: gray;
+
+
+	@media only screen and (min-width: 1140px) {
+
+		padding: 100px;
+
+		position: relative;
+
+		top: -1400px;
+
+		}
+
+	}
+
+
+
+// * {
+// 		border: 2px solid black !important;
+// 	}

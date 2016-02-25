@@ -1,0 +1,88 @@
+._imageEvent {	 
+
+	._date {
+
+		 background: transparent;
+
+	}
+
+	._day {
+
+		font-size: 90px;
+
+	}
+
+	._event {
+
+		 background: transparent;
+
+	}
+
+	._eventCTA {
+
+		// position: relative;
+
+		// top: 25px;
+
+		// 	i {
+
+		// 		font-size: 35px;
+
+		// 		position: relative;
+
+		// 		top: 5px;
+
+		// 		left: 15px;
+
+		// 	}
+
+		// 	&:hover {
+
+		// 		text-decoration: none;
+
+		// 	}
+
+	}
+
+	._eventDate {
+
+		@extend ._paddingTop15;
+
+		font-size: 18px;		
+
+	}
+
+	._eventDescription {
+
+		@extend ._paddingTop15;
+		
+	}
+
+	._eventHeadline {
+
+		@extend ._paddingTop5;
+
+		display:block;
+
+		font-size: 21px;
+
+		line-height: 30px;
+
+	}
+
+	._eventTitle {
+
+		font-size: 20px;
+		
+	}
+
+	._month {
+
+		display:block;
+
+		font-size: 50px;
+
+	}
+
+}
+

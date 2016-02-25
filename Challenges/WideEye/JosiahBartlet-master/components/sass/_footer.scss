@@ -1,0 +1,74 @@
+#_footer {
+	
+	background-color: $campaignBluePrimary;
+
+	text-align:center;
+
+	i {
+
+		@extend ._paddingTop10;
+
+		@extend ._paddingBottom5;
+
+		font-size:50px;
+
+		padding-left: 5%;
+
+		padding-right: 5%;
+
+	}
+
+	span {
+
+		@extend ._paddingTop5;
+
+	}
+
+	#_privacyPolicy {
+
+		@extend ._marginTop5;
+
+		font-family: sans-serif;
+		
+		@include fontStandards('Source Sans Pro', 600);
+
+		color: $offWhite;
+	}
+
+	#_disclaimer {
+
+		@extend ._paddingTop5;
+
+		@extend ._paddingBottom5;
+
+		@extend ._marginTop5;
+
+		@extend ._marginBottom5;
+		
+		font-family: sans-serif;
+		
+		@include fontStandards('Source Sans Pro', 600);
+
+		color: $ghostBlue;
+
+		border: 1px solid $ghostBlue;
+
+		margin-left: auto;
+
+		margin-right: auto;
+
+		text-transform: uppercase;
+
+		width: 400px;
+
+			@media (min-width: 360px) and (max-width: 767px) {
+
+				width: 300px;
+
+				font-size: 14px;
+
+			}
+			
+	}
+
+}

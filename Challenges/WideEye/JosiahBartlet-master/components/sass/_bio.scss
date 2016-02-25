@@ -1,0 +1,56 @@
+#_bio {
+
+	background-color:$campaignBlueDark;
+
+	#_hiddenBio i {
+
+		@extend ._paddingBottom5;
+
+		font-size: 20px;
+	}
+
+	h1 {
+
+		border: 1px solid $ghostBlue;
+
+		@extend ._marginTop10;
+
+		@extend ._marginBottom10;
+
+		@extend ._paddingTop5;
+
+		@extend ._paddingBottom5;
+
+		font-size: 20px;
+
+		margin-left: auto;
+
+		margin-right: auto;
+
+		padding-left: 5%;
+
+		width: 350px;
+
+
+		@media (min-width: 360px) and (max-width: 767px) {
+			
+			width: 100%;
+
+		}
+
+		i {
+
+			margin-left: 5%;
+		}
+
+	}
+
+	p {
+
+		@extend ._paddingBottom5;
+
+		line-height: 40px;
+
+	}
+
+}

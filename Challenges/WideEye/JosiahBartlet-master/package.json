@@ -1,0 +1,33 @@
+{
+  "name": "Gulp-Workbench",
+  "version": "0.0.1",
+  "description": "GulpWorkbench",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PatrickDePuydt/gulpbench.git"
+  },
+  "author": "Pat DePuydt",
+  "devDependencies": {
+    "browser-sync": "^2.10.0",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-browserify": "^0.5.0",
+    "gulp-coffee": "^1.4.3",
+    "gulp-compass": "^2.1.0",
+    "gulp-concat": "^2.2.0",
+    "gulp-connect": "^2.2.0",
+    "gulp-if": "^2.0.0",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-jsonminify": "^1.0.0",
+    "gulp-minify-html": "^1.0.4",
+    "gulp-uglify": "^1.5.1",
+    "gulp-util": "^2.2.14",
+    "imagemin-pngcrush": "^4.1.0",
+    "jquery": "^2.1.1",
+    "mustache": "^0.8.1"
+  },
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "wiredep": "^2.2.2"
+  }
+}

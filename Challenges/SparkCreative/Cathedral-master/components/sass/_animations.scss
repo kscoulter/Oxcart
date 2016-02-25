@@ -1,0 +1,209 @@
+@keyframes fadeIn {
+
+	from {
+	
+		opacity: 0;
+	
+		visibility: hidden;
+	
+	}
+
+	to {
+	
+		opacity: 1;
+	
+		visibility: visible;
+	}
+
+}
+
+@keyframes scaleDown {
+	
+	from {
+
+		transform: scale(1.1);
+	}
+
+	to {
+
+		transform: scale(1);
+
+	}
+
+}
+
+@keyframes scaleUp {
+	
+	from {
+
+		transform: scale(1);
+	}
+
+	to {
+
+		transform: scale(1.2);
+
+	}
+
+}
+
+@keyframes slideUp {
+	from {
+		transform: translateY(100%);
+	}
+	to {
+		transform: translateY(0);
+	}
+}
+
+._transition15 {
+	
+	transition: all .15s ease-in-out;
+
+}
+
+._transition25 {
+	
+	transition: all .25s ease-in-out;
+
+}
+
+._transition50 {
+	
+	transition: all .5s ease-in-out;
+
+}
+
+body {
+
+	background-color: black;
+
+	@media (min-width: 360px) and (max-width: 767px) {
+
+	background-color: $offWhite;
+
+	}
+
+
+}
+
+#_heroLander {
+
+	animation: fadeIn 3s;
+
+	._ctaCaptureSection {
+
+		animation: fadeIn 2.5s, scaleDown 2s;
+	
+	}
+
+	#_signUpCTA, #_contributeCTA {
+
+	@extend ._transition25;
+
+		&:hover {
+
+			color: white; 
+
+			width: 55%;
+
+			border-bottom: 3px solid $offWhite;
+
+			@media (min-width: 360px) and (max-width: 767px) {
+				
+				width: 100%;
+
+			}
+
+		}
+
+	}
+
+	form {
+
+		input {
+
+			@extend ._transition25;
+
+			border-top: 3px solid transparent;
+
+			border-right: 3px solid transparent;
+
+			border-left: 3px solid transparent;
+
+			border-bottom: 3px solid $mediumGray;
+
+			&:hover {
+
+				transform: scale(1.05);
+
+				@media (min-width: 360px) and (max-width: 767px) {
+				
+				transform: scale(1);
+
+				}
+
+			}
+
+			&:focus {
+
+				transform: scale(1.1);	
+
+				background-color: white;			
+
+				border-top: 3px solid $campaignBluePrimary;
+
+				border-right: 3px solid $campaignBluePrimary;
+
+				border-left: 3px solid $campaignBluePrimary;
+
+				border-bottom: 3px solid $campaignBluePrimary;
+
+			}
+
+		}
+
+	}
+
+}
+
+#_getInvolved {
+
+	// @extend ._transition15;
+
+	animation: slideUp 2s;
+
+	h1 {
+
+		animation: fadeIn 7s;
+	}
+
+	._ctaIcon {
+
+		@extend ._transition15;
+
+		&:hover {
+
+			transform: scale(1.1);
+			//animation: scaleUp 1s; 
+
+		}
+
+	}
+
+}
+
+#_bio {
+
+	#_learnMore {
+
+		@extend ._transition50;
+
+			&:hover {
+
+				border: 1px solid white;
+			}
+
+	}
+}
+

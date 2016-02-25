@@ -1,0 +1,39 @@
+// style.scss
+// ==============
+ 
+//Compass imports
+@import "compass";
+@import "compass/css3/box-shadow";
+@import "compass/reset";
+ 
+//Helper Partials
+//Uncomment these to see where things are on the page visually.
+	//@import "guides";
+	@import "formReset";
+
+//Base Partials
+@import "variables";
+@import "mixins";
+@import "marginPadding";
+@import "buttons";
+@import "fonts";
+
+//Section Partials
+@import "heroLander";
+@import "getInvolved";
+@import "bio";
+@import "footer";
+
+//Fancy Pants
+@import 'animations';
+
+
+// #_signUpCTA {
+
+// 	&:hover {
+
+// 		color:red;
+
+// 	}
+
+// }

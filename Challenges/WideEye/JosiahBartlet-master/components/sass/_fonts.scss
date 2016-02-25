@@ -1,0 +1,137 @@
+._descriptionText {
+
+	font-family: serif;
+	@include fontStandards('PT Serif', 400);
+
+	line-height: 25px;
+
+}
+
+._catchPhrase {
+
+	//Fallback
+	font-family: sans-serif;
+	@include fontStandards('Source Sans Pro', 600);
+
+	font-size: 30px;
+
+}
+
+._firstName {
+
+	display:block;
+
+	//Fallback
+	font-family: sans-serif;
+	@include fontStandards('Source Sans Pro', 700);
+
+	font-size: 50px;
+
+}
+
+
+._fontBlue {
+
+	color: $campaignBlueDark;
+
+}
+
+._fontRed {
+
+	color: $contributeRedDark;
+
+}
+
+._fontGhostBlue {
+	
+	color: $ghostBlue;
+
+}
+
+._fontWhite {
+
+	color: $offWhite;
+
+}
+
+._fontSmWhite {
+
+	@media (min-width: 769px) {
+
+		color:$offWhite;
+	
+	}
+
+}
+
+._fontXsBlue {
+
+	@media (max-width: 768px) {
+
+		color:$campaignBluePrimary;
+	
+	}
+
+}
+
+._fontXsGray {
+
+	@media (max-width: 768px) {
+
+		color:$mediumGray;
+	
+	}
+
+}
+
+
+
+._fontSmWhite {
+
+	@media (min-width: 769px) {
+
+		color:$offWhite;
+	
+	}
+
+}
+
+._fontXsWhite {
+
+	@media (max-width: 768px) {
+
+		color:$offWhite;
+	
+	}
+
+}
+
+
+._h1 {
+
+	font-family: sans-serif;
+	@include fontStandards('Source Sans Pro', 600);
+
+	font-size: 40px;
+
+}
+
+i {
+
+	font-size:50px;
+
+}
+
+._logoHyphen {
+
+	font-size: 60px;
+
+	line-height: 0px;
+
+}
+
+._uppercase {
+
+	text-transform: uppercase;
+
+}

@@ -1,0 +1,65 @@
+#_getInvolved {
+
+	@extend ._paddingBottom5;
+
+	background-color:$baseTan;
+
+	h1 {
+
+		@extend ._paddingTop10;
+
+		@extend ._paddingBottom2;
+
+		._mdash {
+
+			font-size: 60px;
+
+			padding-left: 5%;
+
+			padding-right: 5%;
+
+			@media (min-width: 360px) and (max-width: 767px) {
+
+			padding-right: 0px;
+
+			padding-left: 0px;
+
+			}
+
+		}
+
+	}
+
+	p {
+
+		@extend ._paddingTop5;
+
+		@extend ._paddingBottom5;
+
+	}
+
+	._ctaIcon {
+
+		@extend ._paddingTop5;
+
+		@extend ._paddingBottom5;
+
+		img {
+
+			width: 125px;
+
+				@media (min-width: 360px) and (max-width: 767px) {
+
+					width: 150px;
+
+				}
+
+		}
+
+		
+
+
+
+	}
+
+}

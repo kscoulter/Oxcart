@@ -1,0 +1,187 @@
+#_heroLander {
+
+	@extend ._paddingBottom5;
+
+	background-color: $campaignBlueDark;
+
+	background: url(../images/JedBartlett.jpg) no-repeat center center fixed; 
+	
+	background-size: cover;
+
+	._logo {
+
+		@extend ._paddingTop15;
+
+		@extend ._paddingBottom2;
+
+		width: 100%;
+
+		background: url(../images/logo_landscape.png) no-repeat center center;
+
+		background: url(../images/logo_landscape.svg) no-repeat center center;
+
+		span {
+
+			visibility:hidden;
+
+		}
+
+		@media (min-width: 360px) and (max-width: 767px) {
+
+			background: url(../images/logo_portrait.png) no-repeat center center;
+
+			background: url(../images/logo_portrait.svg) no-repeat center center;
+		
+			padding-bottom: 20%;
+
+			}
+
+
+	}
+
+	h1 {
+
+		@extend ._paddingTop2;
+
+		@extend ._paddingBottom2;
+
+		font-family: sans-serif;
+		@include fontStandards('Source Sans Pro', 600);
+
+		font-size: 40px;
+
+		color: white;
+	}
+
+	form {
+
+		input {
+
+			@extend ._marginTop5;
+
+			@extend ._marginBottom5;
+
+			@extend ._paddingTop2;
+
+			@extend ._paddingBottom2;
+
+			background-color: $baseTan;
+
+			border-bottom: 2px solid $mediumGray;
+
+			border-left: none;
+
+			// border-radius: 5px;
+
+			border-right: none;
+
+			border-top: none;
+
+			color: $mediumGray;
+
+			margin-left: 0px;
+
+			margin-right: 0px;
+
+			text-indent: 5%;
+
+			width: 45%;
+
+				@media (min-width: 360px) and (max-width: 767px) {
+
+					width:100%;
+
+					padding-top: 5%;
+
+					padding-bottom: 5%;
+			
+				}
+
+		}
+
+		#_emailAddress {
+
+			border-radius: 5px;
+
+				@media only screen and (min-width: 768px) {
+
+					position: relative;
+
+					left: 2px;
+
+					border-right: 2px solid $mediumGray;
+
+					border-top-right-radius: 0px;
+
+					border-bottom-right-radius: 0px;
+
+					border-bottom-left-radius: 5px;
+
+					border-top-left-radius: 5px;
+
+				}
+
+			}
+
+			#_zipCode {
+
+				border-radius: 5px;
+
+					@media only screen and (min-width: 768px) {
+
+						position: relative;
+
+						right: 2px;
+
+						border-left: 2px solid $mediumGray;
+
+						border-top-left-radius: 0px;
+
+						border-bottom-left-radius: 0px;
+
+						border-bottom-right-radius: 5px;
+
+						border-top-right-radius: 5px;
+
+					}
+
+				}
+	}
+
+	button {
+
+		@extend ._marginTop2;
+
+		@extend ._marginBottom2;
+
+		@extend ._paddingTop2;
+
+		@extend ._paddingBottom2;
+
+		width:50%;
+
+		@media (min-width: 360px) and (max-width: 767px) {
+
+			padding-top: 5%;
+
+			padding-bottom: 5%;
+
+			margin-top: 5%;
+
+			margin-bottom: 5%;
+
+			width: 100%;
+		
+		}
+
+	}
+
+	@media (max-width: 768px) { 
+	
+		background-color: $offWhite;
+
+		background: none;
+		
+	}
+
+}

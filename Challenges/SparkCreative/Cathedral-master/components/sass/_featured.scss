@@ -1,0 +1,66 @@
+#_featured {
+
+	@extend ._paddingTop2;
+
+	@extend ._paddingBottom2;
+
+	//border: 3px solid gold;
+
+	@media only screen and (min-width: 768px) {
+
+				width: 265px;
+
+				height: 280px;
+
+			}
+
+	.container {
+
+		//border: 3px solid cyan;
+
+		@media only screen and (min-width: 768px) {
+
+				width: 265px;
+
+				height: 280px;
+
+			}
+
+			.row {
+				@media only screen and (min-width: 768px) {
+
+				width: 265px;
+
+				height: 280px;
+
+			}
+			}
+
+		#_featuredSection {
+
+			//border: 3px solid coral;
+
+			background: url(../images/chapelBG.jpg) no-repeat center center;
+
+			background-size: cover;
+
+			a span {
+
+				padding: 10px;
+				
+				display: block;
+
+				color: white;
+			}
+
+			@media only screen and (min-width: 768px) {
+
+				width: 265px;
+
+				height: 280px;
+
+			}
+		}
+	
+	}
+}

@@ -1,0 +1,88 @@
+._bodyText {
+
+	@include fontStandards (Lato, 400);
+
+}
+
+._day {
+
+	@include fontStandards (Old Standard TT, 400);
+		
+}
+
+._descriptionCta {
+
+	@include fontStandards (Lato, 700);
+
+	text-transform: uppercase;
+
+}
+
+._featuredHeadline {
+
+	@include fontStandards (Old Standard TT, 300);
+
+	text-transform: lowercase;
+
+}
+
+._fontBlack {
+	
+	color: $offBlack;
+
+}
+
+._fontOrange {
+
+	color: $orangeTan;
+
+}
+
+._fontWhite {
+
+	color: $offWhite;
+
+}
+
+._h1 {
+
+	@include fontStandards (Lato, 300);
+
+	text-transform: uppercase;
+
+}
+
+._h2 {
+
+	@include fontStandards (Old Standard TT, 300);
+
+	text-transform: uppercase;
+
+}
+
+._h3 {
+
+	@include fontStandards (Old Standard TT, 700);
+
+	font-style: italic;
+
+	text-transform: uppercase;
+
+}
+
+._month {
+
+	@include fontStandards (Lato, 300);
+
+	text-transform: uppercase;
+
+}
+
+._viewCalendar {
+
+	@include fontStandards (Lato, 700);
+
+	text-transform: uppercase;
+
+}
+

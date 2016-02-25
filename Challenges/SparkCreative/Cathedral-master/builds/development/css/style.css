@@ -1,0 +1,521 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+q, blockquote {
+  quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+a img {
+  border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+._marginBottom2 {
+  margin-bottom: 2%;
+}
+
+._marginBottom5 {
+  margin-bottom: 5%;
+}
+
+._marginBottom10 {
+  margin-bottom: 10%;
+}
+
+._marginBottom15 {
+  margin-bottom: 15%;
+}
+
+._marginBottom20 {
+  margin-bottom: 20%;
+}
+
+._marginTop2 {
+  margin-top: 2%;
+}
+
+._marginTop5, ._calendarEvent ._eventCTA {
+  margin-top: 5%;
+}
+
+._marginTop10 {
+  margin-top: 10%;
+}
+
+._marginTop15 {
+  margin-top: 15%;
+}
+
+._marginTop20 {
+  margin-top: 20%;
+}
+
+._paddingBottom2, #_featured {
+  padding-bottom: 2%;
+}
+
+._paddingBottom5 {
+  padding-bottom: 5%;
+}
+
+._paddingBottom10, ._calendarEvent ._event {
+  padding-bottom: 10%;
+}
+
+._paddingBottom15 {
+  padding-bottom: 15%;
+}
+
+._paddingBottom20, #_heroLander {
+  padding-bottom: 20%;
+}
+
+._paddingTop2, #_featured {
+  padding-top: 2%;
+}
+
+._paddingTop5, ._calendarEvent ._eventHeadline, ._imageEvent ._eventHeadline {
+  padding-top: 5%;
+}
+
+._paddingTop10, ._calendarEvent ._date, ._calendarEvent ._event {
+  padding-top: 10%;
+}
+
+._paddingTop15, ._calendarEvent ._eventDescription, ._imageEvent ._eventDate, ._imageEvent ._eventDescription {
+  padding-top: 15%;
+}
+
+._paddingTop20, #_heroLander {
+  padding-top: 20%;
+}
+
+._bodyText {
+  font-family: Lato;
+  font-weight: 400;
+}
+
+._day {
+  font-family: Old Standard TT;
+  font-weight: 400;
+}
+
+._descriptionCta {
+  font-family: Lato;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+._featuredHeadline {
+  font-family: Old Standard TT;
+  font-weight: 300;
+  text-transform: lowercase;
+}
+
+._fontBlack {
+  color: #312d2e;
+}
+
+._fontOrange {
+  color: #cc8614;
+}
+
+._fontWhite {
+  color: #f8f6f3;
+}
+
+._h1 {
+  font-family: Lato;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+._h2 {
+  font-family: Old Standard TT;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+._h3 {
+  font-family: Old Standard TT;
+  font-weight: 700;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+._month {
+  font-family: Lato;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+._viewCalendar {
+  font-family: Lato;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#_heroLander {
+  background: url(../images/cathedralBG@1x.jpg) no-repeat center center;
+  background-size: cover;
+}
+@media only screen and (min-width: 480px) {
+  #_heroLander {
+    background: url(../images/cathedralBG@2x.jpg) no-repeat center center;
+    background-size: cover;
+  }
+}
+@media only screen and (min-width: 768px) {
+  #_heroLander {
+    background: url(../images/cathedralBG@3x.jpg) no-repeat center center;
+    background-size: cover;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #_featured {
+    width: 265px;
+    height: 280px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  #_featured .container {
+    width: 265px;
+    height: 280px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  #_featured .container .row {
+    width: 265px;
+    height: 280px;
+  }
+}
+#_featured .container #_featuredSection {
+  background: url(../images/chapelBG.jpg) no-repeat center center;
+  background-size: cover;
+}
+#_featured .container #_featuredSection a span {
+  padding: 10px;
+  display: block;
+  color: white;
+}
+@media only screen and (min-width: 768px) {
+  #_featured .container #_featuredSection {
+    width: 265px;
+    height: 280px;
+  }
+}
+
+._calendarEvent ._date {
+  background: #cc8614;
+  text-align: center;
+}
+@media only screen and (min-width: 480px) {
+  ._calendarEvent ._date {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+._calendarEvent ._day {
+  font-size: 90px;
+}
+@media only screen and (min-width: 768px) {
+  ._calendarEvent ._day {
+    position: relative;
+    top: 8px;
+    font-size: 55px;
+  }
+}
+._calendarEvent ._event {
+  background: #f8f6f3;
+}
+@media only screen and (min-width: 768px) {
+  ._calendarEvent ._event {
+    padding-top: 57px;
+    padding-left: 57px;
+    padding-bottom: 0px;
+  }
+}
+._calendarEvent ._eventCTA {
+  display: block;
+  position: relative;
+  top: 15px;
+}
+@media only screen and (min-width: 768px) {
+  ._calendarEvent ._eventCTA {
+    top: -10px;
+  }
+}
+._calendarEvent ._eventCTA i {
+  font-size: 35px;
+  position: relative;
+  top: 5px;
+  left: 15px;
+}
+._calendarEvent ._eventCTA:hover {
+  text-decoration: none;
+}
+._calendarEvent ._eventDate {
+  position: relative;
+  top: 8px;
+  font-size: 18px;
+}
+@media only screen and (min-width: 768px) {
+  ._calendarEvent ._eventDate {
+    font-size: 12px;
+  }
+}
+._calendarEvent ._eventHeadline {
+  display: block;
+  font-size: 23px;
+  line-height: 30px;
+}
+._calendarEvent ._eventTitle {
+  font-size: 20px;
+}
+._calendarEvent ._month {
+  display: block;
+  font-size: 50px;
+}
+@media only screen and (min-width: 768px) {
+  ._calendarEvent ._month {
+    font-size: 22px;
+  }
+}
+
+._underlineWhite {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid white;
+  width: 50px;
+  position: relative;
+  top: 4px;
+}
+
+._imageEvent ._date {
+  background: transparent;
+}
+._imageEvent ._day {
+  font-size: 90px;
+}
+._imageEvent ._event {
+  background: transparent;
+}
+._imageEvent ._eventDate {
+  font-size: 18px;
+}
+._imageEvent ._eventHeadline {
+  display: block;
+  font-size: 21px;
+  line-height: 30px;
+}
+._imageEvent ._eventTitle {
+  font-size: 20px;
+}
+._imageEvent ._month {
+  display: block;
+  font-size: 50px;
+}
+
+#main {
+  overflow: hidden;
+  height: 2000px;
+}
+@media only screen and (min-width: 1140px) {
+  #main {
+    height: 1450px;
+  }
+}
+
+#_07 ._date {
+  z-index: 2;
+}
+@media only screen and (min-width: 768px) {
+  #_07 ._date {
+    position: relative;
+    top: 40px;
+    left: 25px;
+    height: 125px;
+  }
+}
+#_07 ._event {
+  z-index: 0;
+}
+@media only screen and (min-width: 768px) {
+  #_07 ._event {
+    position: relative;
+    top: -100px;
+    left: 8px;
+  }
+}
+
+#_10 {
+  width: 670px;
+  background: url(../images/usmc.jpg) no-repeat;
+  background-size: contain;
+}
+#_10 .container {
+  width: 670px;
+  margin-left: 0px;
+}
+@media only screen and (min-width: 1140px) {
+  #_10 {
+    position: relative;
+    top: -527px;
+    left: 575px;
+    height: 410px;
+  }
+  #_10 ._date {
+    position: relative;
+    top: 28px;
+    left: 35px;
+  }
+  #_10 ._day {
+    font-size: 55px;
+  }
+  #_10 ._month {
+    position: relative;
+    font-size: 22px;
+  }
+}
+
+#_13 {
+  z-index: 2;
+}
+@media only screen and (min-width: 768px) {
+  #_13 .container {
+    width: 380px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  #_13 {
+    width: 380px;
+    position: relative;
+    top: -575px;
+    left: 375px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  #_13 ._date {
+    z-index: 1;
+    position: relative;
+    left: 265px;
+    top: 150px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  #_13 ._event {
+    padding: 30px;
+    position: relative;
+    width: 300px;
+    height: 400px;
+    right: 15px;
+    top: -145px;
+  }
+}
+
+#_25 {
+  z-index: 1;
+  background: url(../images/christmas.jpg) no-repeat;
+  background-size: contain;
+}
+#_25 .container {
+  width: 700px;
+  margin-left: 0px;
+}
+@media only screen and (min-width: 1140px) {
+  #_25 {
+    position: relative;
+    top: -1025px;
+    left: 120px;
+    height: 410px;
+  }
+}
+#_25 ._day {
+  font-size: 55px;
+}
+#_25 ._month {
+  font-size: 22px;
+}
+
+#_featured {
+  z-index: 4;
+  visibility: hidden;
+}
+@media only screen and (min-width: 1140px) {
+  #_featured {
+    visibility: visible;
+    position: relative;
+    top: -1652px;
+    left: 550px;
+  }
+  #_featured a {
+    position: relative;
+    top: 25px;
+  }
+  #_featured a:hover {
+    text-decoration: none;
+  }
+  #_featured a ._featuredHeadline {
+    font-size: 25px;
+    font-style: italic;
+  }
+}
+
+#_footer {
+  z-index: 0;
+  background: gray;
+}
+@media only screen and (min-width: 1140px) {
+  #_footer {
+    padding: 100px;
+    position: relative;
+    top: -1400px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

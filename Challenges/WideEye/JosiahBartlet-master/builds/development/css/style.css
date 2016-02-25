@@ -1,0 +1,824 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+q, blockquote {
+  quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+a img {
+  border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* ----------------------------------------------------------------------------------------------------
+
+Super Form Reset
+
+A couple of things to watch out for:
+
+- IE8: If a text input doesn't have padding on all sides or none the text won't be centered.
+- The default border sizes on text inputs in all UAs seem to be slightly different. You're better off using custom borders.
+- You NEED to set the font-size and family on all form elements
+- Search inputs need to have their appearance reset and the box-sizing set to content-box to match other UAs
+- You can style the upload button in webkit using ::-webkit-file-upload-button
+- ::-webkit-file-upload-button selectors can't be used in the same selector as normal ones. FF and IE freak out.
+- IE: You don't need to fake inline-block with labels and form controls in IE. They function as inline-block.
+- By turning off ::-webkit-search-decoration, it removes the extra whitespace on the left on search inputs
+
+----------------------------------------------------------------------------------------------------*/
+input,
+label,
+select,
+button,
+textarea {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  display: inline-block;
+  vertical-align: middle;
+  white-space: normal;
+  background: none;
+  line-height: 1;
+  /* Browsers have different default form fonts */
+  font-size: 13px;
+  font-family: Arial;
+}
+
+/* Remove the stupid outer glow in Webkit */
+input:focus {
+  outline: 0;
+}
+
+/* Box Sizing Reset
+-----------------------------------------------*/
+/* All of our custom controls should be what we expect them to be */
+input,
+textarea {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+/* These elements are usually rendered a certain way by the browser */
+button,
+input[type=reset],
+input[type=button],
+input[type=submit],
+input[type=checkbox],
+input[type=radio],
+select {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* Text Inputs
+-----------------------------------------------*/
+/* Button Controls
+-----------------------------------------------*/
+input[type=checkbox],
+input[type=radio] {
+  width: 13px;
+  height: 13px;
+}
+
+/* File Uploads
+-----------------------------------------------*/
+/* Search Input
+-----------------------------------------------*/
+/* Make webkit render the search input like a normal text field */
+input[type=search] {
+  -webkit-appearance: textfield;
+  -webkit-box-sizing: content-box;
+}
+
+/* Turn off the recent search for webkit. It adds about 15px padding on the left */
+::-webkit-search-decoration {
+  display: none;
+}
+
+/* Buttons
+-----------------------------------------------*/
+button,
+input[type="reset"],
+input[type="button"],
+input[type="submit"] {
+  /* Fix IE7 display bug */
+  overflow: visible;
+  width: auto;
+}
+
+/* IE8 and FF freak out if this rule is within another selector */
+::-webkit-file-upload-button {
+  padding: 0;
+  border: 0;
+  background: none;
+}
+
+/* Textarea
+-----------------------------------------------*/
+textarea {
+  /* Move the label to the top */
+  vertical-align: top;
+  /* Turn off scroll bars in IE unless needed */
+  overflow: auto;
+}
+
+/* Selects
+-----------------------------------------------*/
+select[multiple] {
+  /* Move the label to the top */
+  vertical-align: top;
+}
+
+._marginBottom2, #_heroLander button {
+  margin-bottom: 2%;
+}
+
+._marginBottom5, #_heroLander form input, #_footer #_disclaimer {
+  margin-bottom: 5%;
+}
+
+._marginBottom10, #_bio h1 {
+  margin-bottom: 10%;
+}
+
+._marginBottom15 {
+  margin-bottom: 15%;
+}
+
+._marginTop2, #_heroLander button {
+  margin-top: 2%;
+}
+
+._marginTop5, #_heroLander form input, #_footer #_privacyPolicy, #_footer #_disclaimer {
+  margin-top: 5%;
+}
+
+._marginTop10, #_bio h1 {
+  margin-top: 10%;
+}
+
+._marginTop15 {
+  margin-top: 15%;
+}
+
+._paddingBottom2, #_heroLander ._logo, #_heroLander h1, #_heroLander form input, #_heroLander button, #_getInvolved h1 {
+  padding-bottom: 2%;
+}
+
+._paddingBottom5, #_heroLander, #_getInvolved, #_getInvolved p, #_getInvolved ._ctaIcon, #_bio #_hiddenBio i, #_bio h1, #_bio p, #_footer i, #_footer #_disclaimer {
+  padding-bottom: 5%;
+}
+
+._paddingBottom10 {
+  padding-bottom: 10%;
+}
+
+._paddingBottom15 {
+  padding-bottom: 15%;
+}
+
+._paddingTop2, #_heroLander h1, #_heroLander form input, #_heroLander button {
+  padding-top: 2%;
+}
+
+._paddingTop5, #_getInvolved p, #_getInvolved ._ctaIcon, #_bio h1, #_footer span, #_footer #_disclaimer {
+  padding-top: 5%;
+}
+
+._paddingTop10, #_getInvolved h1, #_footer i {
+  padding-top: 10%;
+}
+
+._paddingTop15, #_heroLander ._logo {
+  padding-top: 15%;
+}
+
+._buttonBase, ._btnBlue, ._btnRed {
+  width: 100%;
+}
+@media (min-width: 480px) and (max-width: 767px) {
+  ._buttonBase, ._btnBlue, ._btnRed {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  ._buttonBase, ._btnBlue, ._btnRed {
+    width: 50%;
+  }
+}
+
+._btnBlue {
+  background-color: #007cb2;
+  border-bottom: 3px solid #005b8a;
+  font-family: sans-serif;
+  font-family: "Source Sans Pro";
+  font-weight: 600;
+  font-size: 20px;
+}
+
+._btnRed {
+  background-color: #c72f4f;
+  border-bottom: 3px solid #7c0e25;
+  font-family: sans-serif;
+  font-family: "Source Sans Pro";
+  font-weight: 600;
+  font-size: 20px;
+}
+
+._descriptionText {
+  font-family: serif;
+  font-family: "PT Serif";
+  font-weight: 400;
+  line-height: 25px;
+}
+
+._catchPhrase {
+  font-family: sans-serif;
+  font-family: "Source Sans Pro";
+  font-weight: 600;
+  font-size: 30px;
+}
+
+._firstName {
+  display: block;
+  font-family: sans-serif;
+  font-family: "Source Sans Pro";
+  font-weight: 700;
+  font-size: 50px;
+}
+
+._fontBlue {
+  color: #005b8a;
+}
+
+._fontRed {
+  color: #7c0e25;
+}
+
+._fontGhostBlue {
+  color: #3d9bc4;
+}
+
+._fontWhite {
+  color: #f4f3ee;
+}
+
+@media (min-width: 769px) {
+  ._fontSmWhite {
+    color: #f4f3ee;
+  }
+}
+
+@media (max-width: 768px) {
+  ._fontXsBlue {
+    color: #007cb2;
+  }
+}
+
+@media (max-width: 768px) {
+  ._fontXsGray {
+    color: #949181;
+  }
+}
+
+@media (min-width: 769px) {
+  ._fontSmWhite {
+    color: #f4f3ee;
+  }
+}
+
+@media (max-width: 768px) {
+  ._fontXsWhite {
+    color: #f4f3ee;
+  }
+}
+
+._h1 {
+  font-family: sans-serif;
+  font-family: "Source Sans Pro";
+  font-weight: 600;
+  font-size: 40px;
+}
+
+i {
+  font-size: 50px;
+}
+
+._logoHyphen {
+  font-size: 60px;
+  line-height: 0px;
+}
+
+._uppercase {
+  text-transform: uppercase;
+}
+
+#_heroLander {
+  background-color: #005b8a;
+  background: url(../images/JedBartlett.jpg) no-repeat center center fixed;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+#_heroLander ._logo {
+  width: 100%;
+  background: url(../images/logo_landscape.png) no-repeat center center;
+  background: url(../images/logo_landscape.svg) no-repeat center center;
+}
+#_heroLander ._logo span {
+  visibility: hidden;
+}
+@media (min-width: 360px) and (max-width: 767px) {
+  #_heroLander ._logo {
+    background: url(../images/logo_portrait.png) no-repeat center center;
+    background: url(../images/logo_portrait.svg) no-repeat center center;
+    padding-bottom: 20%;
+  }
+}
+#_heroLander h1 {
+  font-family: sans-serif;
+  font-family: "Source Sans Pro";
+  font-weight: 600;
+  font-size: 40px;
+  color: white;
+}
+#_heroLander form input {
+  background-color: #edece6;
+  border-bottom: 2px solid #949181;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  color: #949181;
+  margin-left: 0px;
+  margin-right: 0px;
+  text-indent: 5%;
+  width: 45%;
+}
+@media (min-width: 360px) and (max-width: 767px) {
+  #_heroLander form input {
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+}
+#_heroLander form #_emailAddress {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+@media only screen and (min-width: 768px) {
+  #_heroLander form #_emailAddress {
+    position: relative;
+    left: 2px;
+    border-right: 2px solid #949181;
+    -webkit-border-top-right-radius: 0px;
+    -moz-border-radius-topright: 0px;
+    border-top-right-radius: 0px;
+    -webkit-border-bottom-right-radius: 0px;
+    -moz-border-radius-bottomright: 0px;
+    border-bottom-right-radius: 0px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-bottom-left-radius: 5px;
+    -webkit-border-top-left-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    border-top-left-radius: 5px;
+  }
+}
+#_heroLander form #_zipCode {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+@media only screen and (min-width: 768px) {
+  #_heroLander form #_zipCode {
+    position: relative;
+    right: 2px;
+    border-left: 2px solid #949181;
+    -webkit-border-top-left-radius: 0px;
+    -moz-border-radius-topleft: 0px;
+    border-top-left-radius: 0px;
+    -webkit-border-bottom-left-radius: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    border-bottom-left-radius: 0px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    border-bottom-right-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-right-radius: 5px;
+  }
+}
+#_heroLander button {
+  width: 50%;
+}
+@media (min-width: 360px) and (max-width: 767px) {
+  #_heroLander button {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  #_heroLander {
+    background-color: #f4f3ee;
+    background: none;
+  }
+}
+
+#_getInvolved {
+  background-color: #edece6;
+}
+#_getInvolved h1 ._mdash {
+  font-size: 60px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+@media (min-width: 360px) and (max-width: 767px) {
+  #_getInvolved h1 ._mdash {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+}
+#_getInvolved ._ctaIcon img {
+  width: 125px;
+}
+@media (min-width: 360px) and (max-width: 767px) {
+  #_getInvolved ._ctaIcon img {
+    width: 150px;
+  }
+}
+
+#_bio {
+  background-color: #005b8a;
+}
+#_bio #_hiddenBio i {
+  font-size: 20px;
+}
+#_bio h1 {
+  border: 1px solid #3d9bc4;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 5%;
+  width: 350px;
+}
+@media (min-width: 360px) and (max-width: 767px) {
+  #_bio h1 {
+    width: 100%;
+  }
+}
+#_bio h1 i {
+  margin-left: 5%;
+}
+#_bio p {
+  line-height: 40px;
+}
+
+#_footer {
+  background-color: #007cb2;
+  text-align: center;
+}
+#_footer i {
+  font-size: 50px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+#_footer #_privacyPolicy {
+  font-family: sans-serif;
+  font-family: "Source Sans Pro";
+  font-weight: 600;
+  color: #f4f3ee;
+}
+#_footer #_disclaimer {
+  font-family: sans-serif;
+  font-family: "Source Sans Pro";
+  font-weight: 600;
+  color: #3d9bc4;
+  border: 1px solid #3d9bc4;
+  margin-left: auto;
+  margin-right: auto;
+  text-transform: uppercase;
+  width: 400px;
+}
+@media (min-width: 360px) and (max-width: 767px) {
+  #_footer #_disclaimer {
+    width: 300px;
+    font-size: 14px;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+    visibility: hidden;
+  }
+  to {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  from {
+    opacity: 0;
+    visibility: hidden;
+  }
+  to {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    visibility: hidden;
+  }
+  to {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+@-webkit-keyframes scaleDown {
+  from {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  to {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@-moz-keyframes scaleDown {
+  from {
+    -moz-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  to {
+    -moz-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes scaleDown {
+  from {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  to {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@-webkit-keyframes scaleUp {
+  from {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  to {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+}
+@-moz-keyframes scaleUp {
+  from {
+    -moz-transform: scale(1);
+    transform: scale(1);
+  }
+  to {
+    -moz-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+}
+@keyframes scaleUp {
+  from {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    transform: scale(1);
+  }
+  to {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+}
+@-webkit-keyframes scaleUpHalf {
+  from {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  to {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+  }
+}
+@-moz-keyframes scaleUpHalf {
+  from {
+    -moz-transform: scale(1);
+    transform: scale(1);
+  }
+  to {
+    -moz-transform: scale(1.05);
+    transform: scale(1.05);
+  }
+}
+@keyframes scaleUpHalf {
+  from {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    transform: scale(1);
+  }
+  to {
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    transform: scale(1.05);
+  }
+}
+@-webkit-keyframes slideUp {
+  from {
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+  }
+  to {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@-moz-keyframes slideUp {
+  from {
+    -moz-transform: translateY(100%);
+    transform: translateY(100%);
+  }
+  to {
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@keyframes slideUp {
+  from {
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    transform: translateY(100%);
+  }
+  to {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+._transition15, #_getInvolved ._ctaIcon {
+  -webkit-transition: all .15s ease-in-out;
+  -moz-transition: all .15s ease-in-out;
+  transition: all .15s ease-in-out;
+}
+
+._transition25, #_heroLander #_signUpCTA, #_heroLander #_contributeCTA, #_heroLander form input {
+  -webkit-transition: all .25s ease-in-out;
+  -moz-transition: all .25s ease-in-out;
+  transition: all .25s ease-in-out;
+}
+
+._transition50, #_bio #_learnMore {
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+body {
+  background-color: black;
+}
+@media (min-width: 360px) and (max-width: 767px) {
+  body {
+    background-color: #f4f3ee;
+  }
+}
+
+#_heroLander {
+  -webkit-animation: fadeIn 3s, scaleDown 6s;
+  -moz-animation: fadeIn 3s, scaleDown 6s;
+  animation: fadeIn 3s, scaleDown 6s;
+}
+#_heroLander ._ctaCaptureSection {
+  -webkit-animation: fadeIn 2.5s, scaleDown 2s, slideInUp 2s;
+  -moz-animation: fadeIn 2.5s, scaleDown 2s, slideInUp 2s;
+  animation: fadeIn 2.5s, scaleDown 2s, slideInUp 2s;
+}
+#_heroLander #_ctaInputs {
+  -webkit-animation: slideInUp 4s;
+  -moz-animation: slideInUp 4s;
+  animation: slideInUp 4s;
+}
+#_heroLander #_signUpCTA:hover, #_heroLander #_contributeCTA:hover {
+  -webkit-animation: scaleUpHalf 1s;
+  -moz-animation: scaleUpHalf 1s;
+  animation: scaleUpHalf 1s;
+  color: white;
+  width: 55%;
+  border-bottom: 3px solid #f4f3ee;
+}
+@media (min-width: 360px) and (max-width: 767px) {
+  #_heroLander #_signUpCTA:hover, #_heroLander #_contributeCTA:hover {
+    width: 100%;
+  }
+}
+#_heroLander form input {
+  border-top: 3px solid transparent;
+  border-right: 3px solid transparent;
+  border-left: 3px solid transparent;
+  border-bottom: 3px solid #949181;
+}
+#_heroLander form input:hover {
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
+@media (min-width: 360px) and (max-width: 767px) {
+  #_heroLander form input:hover {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+}
+#_heroLander form input:focus {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  background-color: white;
+  border-top: 3px solid #007cb2;
+  border-right: 3px solid #007cb2;
+  border-left: 3px solid #007cb2;
+  border-bottom: 3px solid #007cb2;
+}
+
+#_getInvolved {
+  -webkit-animation: slideUp 2s;
+  -moz-animation: slideUp 2s;
+  animation: slideUp 2s;
+}
+#_getInvolved h1 {
+  -webkit-animation: fadeIn 7s;
+  -moz-animation: fadeIn 7s;
+  animation: fadeIn 7s;
+}
+#_getInvolved ._ctaIcon:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+#_bio #_learnMore:hover {
+  border: 1px solid white;
+}
