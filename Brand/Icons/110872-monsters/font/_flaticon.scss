@@ -1,0 +1,91 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 19/02/2016 14:44
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-big-eye-monster:before { content: "\f100"; }
+.flaticon-big-mouth-monster:before { content: "\f101"; }
+.flaticon-bird-monster:before { content: "\f102"; }
+.flaticon-cartoon-monster:before { content: "\f103"; }
+.flaticon-cat-head-monster-with-tentacles:before { content: "\f104"; }
+.flaticon-caterpillar-monster:before { content: "\f105"; }
+.flaticon-cute-monster:before { content: "\f106"; }
+.flaticon-egg-shaped-monster:before { content: "\f107"; }
+.flaticon-eye-flurry-monster:before { content: "\f108"; }
+.flaticon-fat-round-monster:before { content: "\f109"; }
+.flaticon-fish-monster:before { content: "\f10a"; }
+.flaticon-ghost-monster:before { content: "\f10b"; }
+.flaticon-heart-shaped-sad-monster:before { content: "\f10c"; }
+.flaticon-monster-heart:before { content: "\f10d"; }
+.flaticon-monster-with-big-mouth:before { content: "\f10e"; }
+.flaticon-one-eyed-horned-monster:before { content: "\f10f"; }
+.flaticon-one-eyed-monster:before { content: "\f110"; }
+.flaticon-one-eyed-monster-with-four-tentacles:before { content: "\f111"; }
+.flaticon-pig-monster:before { content: "\f112"; }
+.flaticon-scary-monster:before { content: "\f113"; }
+.flaticon-ugly-monster:before { content: "\f114"; }
+.flaticon-unhappy-monster:before { content: "\f115"; }
+.flaticon-walking-skull-head-monster:before { content: "\f116"; }
+.flaticon-wide-eyed-monster:before { content: "\f117"; }
+.flaticon-wide-mouth-monster:before { content: "\f118"; }
+.flaticon-worm-with-wings:before { content: "\f119"; }
+    
+    $font-Flaticon-big-eye-monster: "\f100";
+    $font-Flaticon-big-mouth-monster: "\f101";
+    $font-Flaticon-bird-monster: "\f102";
+    $font-Flaticon-cartoon-monster: "\f103";
+    $font-Flaticon-cat-head-monster-with-tentacles: "\f104";
+    $font-Flaticon-caterpillar-monster: "\f105";
+    $font-Flaticon-cute-monster: "\f106";
+    $font-Flaticon-egg-shaped-monster: "\f107";
+    $font-Flaticon-eye-flurry-monster: "\f108";
+    $font-Flaticon-fat-round-monster: "\f109";
+    $font-Flaticon-fish-monster: "\f10a";
+    $font-Flaticon-ghost-monster: "\f10b";
+    $font-Flaticon-heart-shaped-sad-monster: "\f10c";
+    $font-Flaticon-monster-heart: "\f10d";
+    $font-Flaticon-monster-with-big-mouth: "\f10e";
+    $font-Flaticon-one-eyed-horned-monster: "\f10f";
+    $font-Flaticon-one-eyed-monster: "\f110";
+    $font-Flaticon-one-eyed-monster-with-four-tentacles: "\f111";
+    $font-Flaticon-pig-monster: "\f112";
+    $font-Flaticon-scary-monster: "\f113";
+    $font-Flaticon-ugly-monster: "\f114";
+    $font-Flaticon-unhappy-monster: "\f115";
+    $font-Flaticon-walking-skull-head-monster: "\f116";
+    $font-Flaticon-wide-eyed-monster: "\f117";
+    $font-Flaticon-wide-mouth-monster: "\f118";
+    $font-Flaticon-worm-with-wings: "\f119";

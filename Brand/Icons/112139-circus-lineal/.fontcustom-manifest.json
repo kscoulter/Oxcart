@@ -1,0 +1,208 @@
+{
+  "checksum": {
+    "previous": "38d996e46ff6e575c09725f54d78ee50cfc4f8499718cc7f7bd24a2b89dfec33",
+    "current": "38d996e46ff6e575c09725f54d78ee50cfc4f8499718cc7f7bd24a2b89dfec33"
+  },
+  "fonts": [
+    "/var/www/static/flaticon/zip_packs/112139-circus-lineal/font/Flaticon.ttf",
+    "/var/www/static/flaticon/zip_packs/112139-circus-lineal/font/Flaticon.svg",
+    "/var/www/static/flaticon/zip_packs/112139-circus-lineal/font/Flaticon.woff",
+    "/var/www/static/flaticon/zip_packs/112139-circus-lineal/font/Flaticon.eot"
+  ],
+  "glyphs": {
+    "ball": {
+      "codepoint": 61696,
+      "source": "/var/www/static/flaticon/zip_packs/112139-circus-lineal/svg/ball.svg"
+    },
+    "ball-1": {
+      "codepoint": 61697,
+      "source": "/var/www/static/flaticon/zip_packs/112139-circus-lineal/svg/ball-1.svg"
+    },
+    "ball-with-stars": {
+      "codepoint": 61698,
+      "source": "/var/www/static/flaticon/zip_packs/112139-circus-lineal/svg/ball-with-stars.svg"
+    },
+    "bunny-in-hat": {
+      "codepoint": 61699,
+      "source": "/var/www/static/flaticon/zip_packs/112139-circus-lineal/svg/bunny-in-hat.svg"
+    },
+    "cage-with-wheels": {
+      "codepoint": 61700,
+      "source": "/var/www/static/flaticon/zip_packs/112139-circus-lineal/svg/cage-with-wheels.svg"
+    },
+    "cannon": {
+      "codepoint": 61701,
+      "source": "/var/www/static/flaticon/zip_packs/112139-circus-lineal/svg/cannon.svg"
+    },
+    "circus-tent": {
+      "codepoint": 61702,
+      "source": "/var/www/static/flaticon/zip_packs/112139-circus-lineal/svg/circus-tent.svg"
+    },
+    "clown": {
+      "codepoint": 61703,
+      "source": "/var/www/static/flaticon/zip_packs/112139-circus-lineal/svg/clown.svg"
+    },
+    "clown-bow": {
+      "codepoint": 61704,
+      "source": "/var/www/static/flaticon/zip_packs/112139-circus-lineal/svg/clown-bow.svg"
+    },
+    "clown-hat-with-flower": {
+      "codepoint": 61705,
+      "source": "/var/www/static/flaticon/zip_packs/112139-circus-lineal/svg/clown-hat-with-flower.svg"
+    },
+    "cotton-candy": {
+      "codepoint": 61706,
+      "source": "/var/www/static/flaticon/zip_packs/112139-circus-lineal/svg/cotton-candy.svg"
+    },
+    "crystal-ball": {
+      "codepoint": 61707,
+      "source": "/var/www/static/flaticon/zip_packs/112139-circus-lineal/svg/crystal-ball.svg"
+    },
+    "dog-shaped-balloon": {
+      "codepoint": 61708,
+      "source": "/var/www/static/flaticon/zip_packs/112139-circus-lineal/svg/dog-shaped-balloon.svg"
+    },
+    "drum": {
+      "codepoint": 61709,
+      "source": "/var/www/static/flaticon/zip_packs/112139-circus-lineal/svg/drum.svg"
+    },
+    "elephant": {
+      "codepoint": 61710,
+      "source": "/var/www/static/flaticon/zip_packs/112139-circus-lineal/svg/elephant.svg"
+    },
+    "ferris-wheel": {
+      "codepoint": 61711,
+      "source": "/var/www/static/flaticon/zip_packs/112139-circus-lineal/svg/ferris-wheel.svg"
+    },
+    "find-the-ball-game": {
+      "codepoint": 61712,
+      "source": "/var/www/static/flaticon/zip_packs/112139-circus-lineal/svg/find-the-ball-game.svg"
+    },
+    "garlands": {
+      "codepoint": 61713,
+      "source": "/var/www/static/flaticon/zip_packs/112139-circus-lineal/svg/garlands.svg"
+    },
+    "heart-cards": {
+      "codepoint": 61714,
+      "source": "/var/www/static/flaticon/zip_packs/112139-circus-lineal/svg/heart-cards.svg"
+    },
+    "ice-cream": {
+      "codepoint": 61715,
+      "source": "/var/www/static/flaticon/zip_packs/112139-circus-lineal/svg/ice-cream.svg"
+    },
+    "joker-hat": {
+      "codepoint": 61716,
+      "source": "/var/www/static/flaticon/zip_packs/112139-circus-lineal/svg/joker-hat.svg"
+    },
+    "juggle": {
+      "codepoint": 61717,
+      "source": "/var/www/static/flaticon/zip_packs/112139-circus-lineal/svg/juggle.svg"
+    },
+    "juggling": {
+      "codepoint": 61718,
+      "source": "/var/www/static/flaticon/zip_packs/112139-circus-lineal/svg/juggling.svg"
+    },
+    "kettle": {
+      "codepoint": 61719,
+      "source": "/var/www/static/flaticon/zip_packs/112139-circus-lineal/svg/kettle.svg"
+    },
+    "lion": {
+      "codepoint": 61720,
+      "source": "/var/www/static/flaticon/zip_packs/112139-circus-lineal/svg/lion.svg"
+    },
+    "magic-wand-and-hat": {
+      "codepoint": 61721,
+      "source": "/var/www/static/flaticon/zip_packs/112139-circus-lineal/svg/magic-wand-and-hat.svg"
+    },
+    "magician": {
+      "codepoint": 61722,
+      "source": "/var/www/static/flaticon/zip_packs/112139-circus-lineal/svg/magician.svg"
+    },
+    "maharaja": {
+      "codepoint": 61723,
+      "source": "/var/www/static/flaticon/zip_packs/112139-circus-lineal/svg/maharaja.svg"
+    },
+    "monkey": {
+      "codepoint": 61724,
+      "source": "/var/www/static/flaticon/zip_packs/112139-circus-lineal/svg/monkey.svg"
+    },
+    "popcorn": {
+      "codepoint": 61725,
+      "source": "/var/www/static/flaticon/zip_packs/112139-circus-lineal/svg/popcorn.svg"
+    },
+    "ring-of-fire": {
+      "codepoint": 61726,
+      "source": "/var/www/static/flaticon/zip_packs/112139-circus-lineal/svg/ring-of-fire.svg"
+    },
+    "seal": {
+      "codepoint": 61727,
+      "source": "/var/www/static/flaticon/zip_packs/112139-circus-lineal/svg/seal.svg"
+    },
+    "soda-drink": {
+      "codepoint": 61728,
+      "source": "/var/www/static/flaticon/zip_packs/112139-circus-lineal/svg/soda-drink.svg"
+    },
+    "stage": {
+      "codepoint": 61729,
+      "source": "/var/www/static/flaticon/zip_packs/112139-circus-lineal/svg/stage.svg"
+    },
+    "tent": {
+      "codepoint": 61730,
+      "source": "/var/www/static/flaticon/zip_packs/112139-circus-lineal/svg/tent.svg"
+    },
+    "three-balloons": {
+      "codepoint": 61731,
+      "source": "/var/www/static/flaticon/zip_packs/112139-circus-lineal/svg/three-balloons.svg"
+    },
+    "ticket": {
+      "codepoint": 61732,
+      "source": "/var/www/static/flaticon/zip_packs/112139-circus-lineal/svg/ticket.svg"
+    },
+    "two-balloon-with-stars": {
+      "codepoint": 61733,
+      "source": "/var/www/static/flaticon/zip_packs/112139-circus-lineal/svg/two-balloon-with-stars.svg"
+    },
+    "unicycle": {
+      "codepoint": 61734,
+      "source": "/var/www/static/flaticon/zip_packs/112139-circus-lineal/svg/unicycle.svg"
+    },
+    "unicycle-1": {
+      "codepoint": 61735,
+      "source": "/var/www/static/flaticon/zip_packs/112139-circus-lineal/svg/unicycle-1.svg"
+    }
+  },
+  "options": {
+    "autowidth": false,
+    "config": false,
+    "css_selector": ".flaticon-{{glyph}}",
+    "debug": false,
+    "font_ascent": 448,
+    "font_descent": 64,
+    "font_design_size": 16,
+    "font_em": 512,
+    "font_name": "Flaticon",
+    "force": true,
+    "input": {
+      "templates": "/var/www/static/flaticon/zip_packs/112139-circus-lineal/svg",
+      "vectors": "/var/www/static/flaticon/zip_packs/112139-circus-lineal/svg"
+    },
+    "no_hash": true,
+    "output": {
+      "css": "/var/www/static/flaticon/zip_packs/112139-circus-lineal/font",
+      "fonts": "/var/www/static/flaticon/zip_packs/112139-circus-lineal/font",
+      "preview": "/var/www/static/flaticon/zip_packs/112139-circus-lineal/font"
+    },
+    "preprocessor_path": null,
+    "quiet": true,
+    "templates": [
+      "../../../../../sites/flaticon/libraries/webfont/templates/flaticon.html",
+      "../../../../../sites/flaticon/libraries/webfont/templates/_flaticon.scss",
+      "../../../../../sites/flaticon/libraries/webfont/templates/flaticon.css"
+    ]
+  },
+  "templates": [
+    "/var/www/static/flaticon/zip_packs/112139-circus-lineal/font/flaticon.html",
+    "/var/www/static/flaticon/zip_packs/112139-circus-lineal/font/_flaticon.scss",
+    "/var/www/static/flaticon/zip_packs/112139-circus-lineal/font/flaticon.css"
+  ]
+}

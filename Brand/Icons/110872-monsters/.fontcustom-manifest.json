@@ -1,0 +1,152 @@
+{
+  "checksum": {
+    "previous": "1594bea97283b0c787c10787f9edc2065f640d921fe3100df3d9fae8644f3c4e",
+    "current": "1594bea97283b0c787c10787f9edc2065f640d921fe3100df3d9fae8644f3c4e"
+  },
+  "fonts": [
+    "/var/www/static/flaticon/zip_packs/110872-monsters/font/Flaticon.ttf",
+    "/var/www/static/flaticon/zip_packs/110872-monsters/font/Flaticon.svg",
+    "/var/www/static/flaticon/zip_packs/110872-monsters/font/Flaticon.woff",
+    "/var/www/static/flaticon/zip_packs/110872-monsters/font/Flaticon.eot"
+  ],
+  "glyphs": {
+    "big-eye-monster": {
+      "codepoint": 61696,
+      "source": "/var/www/static/flaticon/zip_packs/110872-monsters/svg/big-eye-monster.svg"
+    },
+    "big-mouth-monster": {
+      "codepoint": 61697,
+      "source": "/var/www/static/flaticon/zip_packs/110872-monsters/svg/big-mouth-monster.svg"
+    },
+    "bird-monster": {
+      "codepoint": 61698,
+      "source": "/var/www/static/flaticon/zip_packs/110872-monsters/svg/bird-monster.svg"
+    },
+    "cartoon-monster": {
+      "codepoint": 61699,
+      "source": "/var/www/static/flaticon/zip_packs/110872-monsters/svg/cartoon-monster.svg"
+    },
+    "cat-head-monster-with-tentacles": {
+      "codepoint": 61700,
+      "source": "/var/www/static/flaticon/zip_packs/110872-monsters/svg/cat-head-monster-with-tentacles.svg"
+    },
+    "caterpillar-monster": {
+      "codepoint": 61701,
+      "source": "/var/www/static/flaticon/zip_packs/110872-monsters/svg/caterpillar-monster.svg"
+    },
+    "cute-monster": {
+      "codepoint": 61702,
+      "source": "/var/www/static/flaticon/zip_packs/110872-monsters/svg/cute-monster.svg"
+    },
+    "egg-shaped-monster": {
+      "codepoint": 61703,
+      "source": "/var/www/static/flaticon/zip_packs/110872-monsters/svg/egg-shaped-monster.svg"
+    },
+    "eye-flurry-monster": {
+      "codepoint": 61704,
+      "source": "/var/www/static/flaticon/zip_packs/110872-monsters/svg/eye-flurry-monster.svg"
+    },
+    "fat-round-monster": {
+      "codepoint": 61705,
+      "source": "/var/www/static/flaticon/zip_packs/110872-monsters/svg/fat-round-monster.svg"
+    },
+    "fish-monster": {
+      "codepoint": 61706,
+      "source": "/var/www/static/flaticon/zip_packs/110872-monsters/svg/fish-monster.svg"
+    },
+    "ghost-monster": {
+      "codepoint": 61707,
+      "source": "/var/www/static/flaticon/zip_packs/110872-monsters/svg/ghost-monster.svg"
+    },
+    "heart-shaped-sad-monster": {
+      "codepoint": 61708,
+      "source": "/var/www/static/flaticon/zip_packs/110872-monsters/svg/heart-shaped-sad-monster.svg"
+    },
+    "monster-heart": {
+      "codepoint": 61709,
+      "source": "/var/www/static/flaticon/zip_packs/110872-monsters/svg/monster-heart.svg"
+    },
+    "monster-with-big-mouth": {
+      "codepoint": 61710,
+      "source": "/var/www/static/flaticon/zip_packs/110872-monsters/svg/monster-with-big-mouth.svg"
+    },
+    "one-eyed-horned-monster": {
+      "codepoint": 61711,
+      "source": "/var/www/static/flaticon/zip_packs/110872-monsters/svg/one-eyed-horned-monster.svg"
+    },
+    "one-eyed-monster": {
+      "codepoint": 61712,
+      "source": "/var/www/static/flaticon/zip_packs/110872-monsters/svg/one-eyed-monster.svg"
+    },
+    "one-eyed-monster-with-four-tentacles": {
+      "codepoint": 61713,
+      "source": "/var/www/static/flaticon/zip_packs/110872-monsters/svg/one-eyed-monster-with-four-tentacles.svg"
+    },
+    "pig-monster": {
+      "codepoint": 61714,
+      "source": "/var/www/static/flaticon/zip_packs/110872-monsters/svg/pig-monster.svg"
+    },
+    "scary-monster": {
+      "codepoint": 61715,
+      "source": "/var/www/static/flaticon/zip_packs/110872-monsters/svg/scary-monster.svg"
+    },
+    "ugly-monster": {
+      "codepoint": 61716,
+      "source": "/var/www/static/flaticon/zip_packs/110872-monsters/svg/ugly-monster.svg"
+    },
+    "unhappy-monster": {
+      "codepoint": 61717,
+      "source": "/var/www/static/flaticon/zip_packs/110872-monsters/svg/unhappy-monster.svg"
+    },
+    "walking-skull-head-monster": {
+      "codepoint": 61718,
+      "source": "/var/www/static/flaticon/zip_packs/110872-monsters/svg/walking-skull-head-monster.svg"
+    },
+    "wide-eyed-monster": {
+      "codepoint": 61719,
+      "source": "/var/www/static/flaticon/zip_packs/110872-monsters/svg/wide-eyed-monster.svg"
+    },
+    "wide-mouth-monster": {
+      "codepoint": 61720,
+      "source": "/var/www/static/flaticon/zip_packs/110872-monsters/svg/wide-mouth-monster.svg"
+    },
+    "worm-with-wings": {
+      "codepoint": 61721,
+      "source": "/var/www/static/flaticon/zip_packs/110872-monsters/svg/worm-with-wings.svg"
+    }
+  },
+  "options": {
+    "autowidth": false,
+    "config": false,
+    "css_selector": ".flaticon-{{glyph}}",
+    "debug": false,
+    "font_ascent": 448,
+    "font_descent": 64,
+    "font_design_size": 16,
+    "font_em": 512,
+    "font_name": "Flaticon",
+    "force": true,
+    "input": {
+      "templates": "/var/www/static/flaticon/zip_packs/110872-monsters/svg",
+      "vectors": "/var/www/static/flaticon/zip_packs/110872-monsters/svg"
+    },
+    "no_hash": true,
+    "output": {
+      "css": "/var/www/static/flaticon/zip_packs/110872-monsters/font",
+      "fonts": "/var/www/static/flaticon/zip_packs/110872-monsters/font",
+      "preview": "/var/www/static/flaticon/zip_packs/110872-monsters/font"
+    },
+    "preprocessor_path": null,
+    "quiet": true,
+    "templates": [
+      "../../../../../sites/flaticon/libraries/webfont/templates/flaticon.html",
+      "../../../../../sites/flaticon/libraries/webfont/templates/_flaticon.scss",
+      "../../../../../sites/flaticon/libraries/webfont/templates/flaticon.css"
+    ]
+  },
+  "templates": [
+    "/var/www/static/flaticon/zip_packs/110872-monsters/font/flaticon.html",
+    "/var/www/static/flaticon/zip_packs/110872-monsters/font/_flaticon.scss",
+    "/var/www/static/flaticon/zip_packs/110872-monsters/font/flaticon.css"
+  ]
+}
