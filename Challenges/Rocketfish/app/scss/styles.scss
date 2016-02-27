@@ -1,0 +1,129 @@
+h1 {
+	color: springgreen;
+}
+/* Global resets */
+* {box-sizing: border-box; margin: 0; padding: 0;}
+body {font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif; color: #424242; line-height: 1.4;}
+
+/* Fonts */
+h1 {
+  font-family: "rooney-web", 'AmericanTypewriter', Rockwell, serif;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.container {
+  margin: 2em auto;
+  max-width: 630px;
+  text-align: center;
+}
+
+/* COLORS:
+  blue: #20A1D4;
+  green: #1CBC2C;
+  orange: #EF5F3C;
+  black: #424242;
+  grey: #777;
+  light grey: #eaeaea;
+*/
+
+/* Your CSS goes here */
+
+.answer {
+	width: 260px;
+	display: block;
+	margin: 0 auto;
+}
+.bold {
+	font-weight: bold;
+}
+#funding-left {
+	background-color: #424242;
+	color: white;
+	height: 40px;
+	border-radius: 3px;
+	margin-bottom: 10px;
+	h4 {
+		margin: 0;
+		line-height: 40px;
+		vertical-align: middle;
+		font-size:13px;
+	}
+	.tiny-point {
+		width: 0;
+		height: 0;
+		border-left: 5px solid transparent;
+		border-right: 5px solid transparent;
+		border-top: 5px solid #424242;
+		margin-left: 220px;
+	}
+}
+#main {
+	border: 1px solid #eaeaea;
+	display: block;
+	#progress {
+		height: 10px;
+		width: 100%;
+		background-color: #eaeaea;
+		margin-bottom: 10px;
+		display: flex;
+		.funds{
+			background-color: #EF5F3C;
+			width: 80%;
+		}
+	}
+	p {
+		padding: 0 15px;
+		font-size: 12px;
+		color: #777;
+		text-align: left;
+		.emphasis {
+			color: #EF5F3C;
+		}
+	}
+	a {
+		display: block;
+		text-decoration: none;
+		text-align: left;
+		font-size: 11px;
+		padding: 10px 15px 15px;
+		color: #20A1D4;
+		font-style: italic;
+
+	}
+	#donation-form {
+		padding: 0 15px;
+		input {
+			height: 50px;
+			border-radius: 3px;
+			box-shadow: 0;
+			border: 1px solid #eaeaea;
+			padding-left:10px;
+			width: 47%;
+			display: inline-block;;
+		}
+		[type="submit"]{
+			color: white;
+			background-color: #1CBC2C;
+			margin-left: 9px;
+		}
+		[type="text"]{
+
+		}
+	}
+}
+.button-holder {
+	display: flex;
+	justify-content: space-between;;
+	button {
+		height: 40px;
+		border-radius: 3px;
+		box-shadow: 0;
+		background-color: #FAFAFA;
+		border: 1px solid #eaeaea;
+		width: 46%;
+		font-size: 12px;
+		margin-top: 12px;
+		color: #777;
+	}
+}
