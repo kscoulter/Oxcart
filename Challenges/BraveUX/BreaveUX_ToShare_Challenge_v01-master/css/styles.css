@@ -1,0 +1,562 @@
+
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+textarea, input, button { 
+    outline: none; 
+    
+}
+
+
+body {
+    font: 16px/26px 'Roboto Condensed', Helvetica, Helvetica Neue, Arial;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 5%;
+}
+
+.invalidLoginLabel {
+    z-index: 1;
+    text-align: center;
+    font-size: 16px;
+    padding: 20px;
+    position: absolute;
+    width: 90%;
+    max-height: 0px;
+    opacity:0;
+    top:0px;
+    visibility: hidden;
+    -webkit-box-shadow: 1px 10px 10px rgba(0, 0, 0, 0.25);
+       -moz-box-shadow: 1px 10px 10px rgba(0, 0, 0, 0.25);
+            box-shadow: 1px 10px 10px rgba(0, 0, 0, 0.25);
+
+    filter:progid:DXImageTransform.Microsoft.dropshadow(
+        OffX=1px, OffY=10px, Color='black', Positive='false'
+    ); /* IE 5.5 */ 
+    border-collapse: separate; /* Required by IE 9 */
+    
+    -webkit-transition: opacity 1s, max-height 1s;
+       -moz-transition: opacity 1s, max-height 1s;
+        -ms-transition: opacity 1s, max-height 1s;
+         -o-transition: opacity 1s, max-height 1s;
+            transition: opacity 1s, max-height 1s;
+}
+
+.invalidLoginLabelReveal {
+    opacity:1;
+    visibility: visible;
+    top:53px;
+    max-height: 30px;
+    -webkit-transition: opacity 1s, max-height 1s;
+   -moz-transition: opacity 1s, max-height 1s;
+    -ms-transition: opacity 1s, max-height 1s;
+     -o-transition: opacity 1s, max-height 1s;
+        transition: opacity 1s, max-height 1s;
+}
+
+
+
+
+]
+
+
+
+
+
+.invalidLoginInputFields {
+    border: 3px solid #ed1c24;
+}
+
+
+.footer-container {
+    
+    width: 100%;
+    padding-top: 15%;
+}
+
+
+
+
+/******************************    
+                    Base Theme
+                    ******************************/
+
+                    /*Background Colors Background Colors Background Colors */
+                    .magenta-93278f {
+                        background: #93278f;
+                    }
+                    .royalDarkPurple-4d226d {
+                        background: #4d226d;
+                    }
+                    .deepPurple-662d91{
+                        background: #662d91;
+                    }
+                    .superLightGray-e0e5e8 {
+                        background: #e0e5e8;
+                    }
+                    .slateGray-455a64 {
+                        background: #455a64;
+                    }
+                    .warningRed-ed1c24 {
+                        background: #ed1c24;
+                    }
+                    .eggshell-eceff1 {
+                        background:#eceff1;
+                    }
+
+                    /*Font Colors Font Colors Font Colors Font Colors Font Colors */
+                    .darkGrayPageFontColor-455a64 {
+                        color:#455a64;
+                    }
+                    .eggshellPageFontColor-eceff1 {
+                        color:#eceff1;
+                    }
+
+                    
+
+
+                    #flagLogo {
+                        width:25%;
+                    }
+
+                    .cautionText {
+                        font-size: 21px;
+                        
+                    }
+
+                    input {
+                        width:90%;
+                        padding:10px;
+                        font-size:18px;
+                        margin-bottom: 15px;
+                         border: 1px solid white;
+                    }
+
+                    #usernameInput {
+
+
+                    }
+
+
+                    #loginButton {
+                        border: none;
+                        font-size: 21px;
+                        width: 50%;
+                        height:50px;
+                        border-radius: 4px;
+                        float:left;
+                    }
+
+
+                    #helpButton {
+                        font-size: 21px;
+                        margin-right: 12px;
+                        margin-top: 12px; 
+                        float:right;
+                    }
+                  
+
+
+/******************************    
+                   Mobile Menu
+                   ******************************/
+
+                nav ul {
+                    margin: 0;
+                    padding: 0;
+                    list-style-type: none;
+                    
+                    
+                }
+
+                nav a {
+                    display: block;
+                    margin-bottom: 10px;
+                    /*margin-left: 40px;*/
+                    padding: 15px 0;                    
+                    text-decoration: none;
+                    font-weight: bold;
+                    padding-left: 20px;
+                    
+                    
+                    
+                }
+
+
+                #mobileNav {
+                    z-index: 2;
+                    position: absolute;
+                    top: 0px;
+                    width: 380px;
+                    height:100%;
+                    
+                }
+
+                .mobileNavHide {
+                    display: none;
+                    overflow: hidden;
+                   visibility: hidden;
+                    right: -389px;
+                    opacity: 0;
+                    -webkit-transition: display .25s, right .5s, opacity .5s, display .25s;
+                       -moz-transition: display .25s, right .5s, opacity .5s, display .25s;
+                        -ms-transition: display .25s, right .5s, opacity .5s, display .25s;
+                         -o-transition: display .25s, right .5s, opacity .5s, display .25s;
+                            transition: display .25s, right .5s, opacity .5s, display .25s;
+
+                }
+
+                .mobileNavShow {
+                    display: inline;
+                   overflow:hidden;
+                    visibility: visible;
+                    right: 0px;
+                    opacity: 1;
+                    -webkit-transition: display .25s, right .5s, opacity .5s, display .25s;
+                       -moz-transition: display .25s, right .5s, opacity .5s, display .25s;
+                        -ms-transition: display .25s, right .5s, opacity .5s, display .25s;
+                         -o-transition: display .25s, right .5s, opacity .5s, display .25s;
+                            transition: display .25s, right .5s, opacity .5s, display .25s;
+
+                }
+
+
+
+                #mobileNav ul {
+                    height: 100%;
+
+                }
+
+                .hamburgerIcon {
+                    float:right;
+                }
+
+                .hamburgerIconStyle {
+                    width:1.2em;
+                    padding: 1em;
+                }
+
+                .leftOption {
+                    float:left;
+                }
+
+                .rightOption {
+                    float: right;
+                    position: absolute;
+                    top: 0px;
+                    right: 0px;
+                    width: 40%;
+                    padding: 3px;
+                    text-indent: 10%;
+                }
+
+                .rightOption a {
+
+                    text-decoration: none;
+                }
+
+                .eyeIcon {
+                    width:2em;
+
+                   
+                }
+                #passwordInput {
+                   border:none;
+                   width:78%;
+                }
+
+                #toggleVisibilePasswordListenerImage {
+                    background:;
+                    height:50%;
+                }
+
+                #passwordForm {
+                    display: inline-block;
+                    
+                    width: 95%;
+                    background: white;
+                    height: 41px;
+                    margin-bottom: 6%;
+
+                }
+
+
+/******************************    
+                   Mobile Main
+                   ******************************/
+
+                #mastheadTitle {
+                    font-size: 21px;
+                }
+
+
+                .main {
+                    padding: 30px 0;
+                }
+
+                .main article h1 {
+                    font-size: 2em;
+                }
+
+                .main aside {
+                    color: white;
+                    padding: 0px 5% 10px;
+                }
+
+                .footer-container footer {
+                    color: white;
+                    padding: 20px 0;
+                }
+
+/* ===============
+    ALL: IE Fixes
+    =============== */
+
+    .ie7 .title {
+        padding-top: 20px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+   @media only screen and (min-width: 480px) {
+
+/* ====================
+    INTERMEDIATE: Menu
+    ==================== */
+
+#passwordInput {
+      
+       width:78%;
+    }
+
+    #passwordForm {
+        
+        width: 93%;  
+
+    }
+
+
+.invalidLoginLabel {
+    width: 94%;
+}
+
+#flagLogo {
+    width: 12%;
+}
+
+#loginButton {
+    width: 35%
+}
+
+#helpButton {
+    margin-right: 7%;
+}
+
+    nav a {
+        float: left;
+        width: 100%;
+        margin: 0;
+        padding: 25px 2%;
+        padding-left: 15%;
+        margin-bottom: 0;
+    }
+
+    nav li:first-child a {
+        margin-left: 0;
+    }
+
+    nav li:last-child a {
+        margin-right: 0;
+    }
+
+/* ========================
+    INTERMEDIATE: IE Fixes
+    ======================== */
+
+    nav ul li {
+        display: inline;
+    }
+
+    .oldie nav a {
+        margin: 0 0.7%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+/* ====================
+    WIDE: CSS3 Effects
+    ==================== */
+    #passwordInput {
+      
+       width:86%;
+    }
+
+    #passwordForm {
+        
+        width: 93%;  
+
+    }
+
+.invalidLoginLabel {
+    width: 95%;
+}
+
+/* ============
+    WIDE: Menu
+    ============ */
+
+    .title {
+        float: left;
+    }
+
+    nav {
+        float: right;
+        width: 38%;
+    }
+
+/* ============
+    WIDE: Main
+    ============ */
+
+  
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+   .hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+
+* {
+  margin: 0;
+}
+
+
+html, body {
+  height: 100%;
+}
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -142px; 
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.footer-container, .page-wrap:after {
+  height: 25%; 
+}
+

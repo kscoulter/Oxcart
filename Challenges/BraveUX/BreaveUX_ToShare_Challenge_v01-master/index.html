@@ -1,0 +1,109 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Roboto Font Condensed Font Normal 400-->
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
+</head>
+<body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+            <![endif]-->
+
+            <div class="header-container magenta-93278f ">
+                <header class="wrapper clearfix">
+                    <div class="leftOption">
+                        <h1 id="mastheadTitle" class="title eggshellPageFontColor-eceff1" alt="Home Button">The Brave UX App</h1>
+                    </div>
+                    <div id="toggleMenuButton" class="rightOption deepPurple-662d91 eggshellPageFontColor-eceff1" onclick="toggle_menu()">
+                        <a href="#" class="eggshellPageFontColor-eceff1">Menu <img class="hamburgerIconStyle" src="img/hamburger.svg"></a>
+                    </div>
+
+
+
+
+                    <!-- This Nav is Hidden -->
+                    <nav id="mobileNav" class="mobileNavHide">
+                        <ul class="deepPurple-662d91">
+                            <li><a href="#" class="eggshellPageFontColor-eceff1" alt="Dashboard" onclick="toggle_menu()">Menu <img class="hamburgerIconStyle" src="img/hamburger.svg"></a></li>
+                            <li><a href="#" class="eggshellPageFontColor-eceff1" alt="Dashboard">Dashboard</a></li>
+                            <li><a href="#" class="eggshellPageFontColor-eceff1"alt="My Profile">My Profile</a></li>
+                            <li><a href="#" class="eggshellPageFontColor-eceff1 royalDarkPurple-4d226d"alt="Settings">Settings</a></li>
+                            <li><a href="#" class="eggshellPageFontColor-eceff1 royalDarkPurple-4d226d"alt="Help">Help</a></li>
+                            <li><a href="#" class="eggshellPageFontColor-eceff1"alt="About">About</a></li>
+                            <li><a href="#" class="eggshellPageFontColor-eceff1"alt="Log Out">Log Out</a></li>
+                        </ul>
+                    </nav>
+                </header>
+            </div>
+
+            <!-- This HTML is hidden and only show's up if there's an invalid username or password -->
+
+            <div id="hiddenLabel" class="warningRed-ed1c24 eggshellPageFontColor-eceff1 invalidLoginLabel">
+                Your Username or Password Wasn't Recognized.
+            </div>
+
+            <div class="main-container eggshell-eceff1 page-wrap">
+                <div class="main wrapper clearfix">
+
+
+
+
+
+                    <article>
+                        <section>
+                            <div class="mastHeadImage">
+                                <img id="flagLogo" src="img/braveFlag.svg">
+                                <p class="cautionText darkGrayPageFontColor-455a64">Do NOT BookMark This Page</p>
+                            </div>
+
+
+                            <h1 class="darkGrayPageFontColor-455a64">Login</h1>
+
+                            <input id="usernameInput" class="inputField darkGrayPageFontColor-455a64" placeholder="Username" type="text" ialt="Enter Username. Must not be blank."></input>
+
+                            <form id="passwordForm" class="eggshell-eceff1">
+                                <input id="passwordInput" class="inputField darkGrayPageFontColor-455a64" placeholder="Password" type="password" alt="Enter Password. Must be at least 6 characters and contain at least one capital letter and at least one non-alphanumeric lcharacter."></input>
+
+                                <img id="toggleVisibilePasswordListenerImage" class="eyeIcon" src="img/eye.svg" type="password">
+                            </form>
+
+
+
+                            <button id="loginButton" class="deepPurple-662d91 eggshellPageFontColor-eceff1" alt="Login Button" onclick="validate_username_and_email()">Login</button>
+
+
+
+
+
+                            <div id="helpButton" class="darkGrayPageFontColor-455a64" atl="Click here for help with your account.">Need Help?</div>
+
+                        </section>
+
+                    </article>
+
+
+
+                </div> <!-- #main -->
+            </div> <!-- #main-container -->
+
+            <div class="footer-container superLightGray-e0e5e8">
+                <footer class="wrapper">
+                    <h3 class="darkGrayPageFontColor-455a64">Powered by Brave UX</h3>
+                </footer>
+            </div>
+
+            <script src="js/functionality.js"></script>
+        </body>
+        </html>
