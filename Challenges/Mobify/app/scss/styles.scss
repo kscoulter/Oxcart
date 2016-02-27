@@ -1,0 +1,33 @@
+h1, h2 {
+	color: springgreen;
+}
+a {
+	margin: 50px;
+	text-decoration: none;
+	color: #616161;
+	font-size: 20px;
+	font-weight: bold;
+	display: block;
+	line-height: 50px;
+	vertical-align: middle;
+	text-align: center;
+	height: 50px;
+	width: 200px;
+	border:2px solid #616161;
+	background: linear-gradient(to top, #CCCCCC 0%,#CCCCCC 50%,#D9D9D9 50%,#D9D9D9 50%,#D9D9D9 100%);
+	text-transform: uppercase;;
+	border-radius: 10px;
+	box-shadow:
+		0 0 2px .5px #616161,
+		0 0 0 6px #CBCBCB,
+		0 0 0 7px white,
+		0 0 0 9px #616161;
+}
+a::before {
+	content: "\2605 \00a0";
+	color: #888888;
+}
+a::after{
+	content: " \2605";
+	color: #888888;
+}
