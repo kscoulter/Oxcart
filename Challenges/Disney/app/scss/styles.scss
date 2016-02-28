@@ -1,0 +1,35 @@
+h1 {
+	color: springgreen;
+}
+$grey: #333333;
+ *{box-sizing:border-box;}
+
+
+  h1{
+    text-align:center;
+  }
+
+.wrap{
+  margin:0 auto;
+  width:310px;
+  height:310px;
+  background-color:$grey;
+
+  .tile{
+    background-color:$grey + 50;
+    height:100px;
+    width:99px;
+    display:inline-block;
+    vertical-align:top;
+    margin-bottom:5px;
+    margin-left:1px;
+
+    text-align:center;
+    font-size:5em;
+  }
+}
+
+.footer{
+  margin: 0 auto;
+  width:310px;
+}
