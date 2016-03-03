@@ -33,17 +33,16 @@
     getNearbyPlaces: function(){
       $.ajax({url: app.queryUrl, success: function(result){
            var venues = result.response.venues;
-           var size = "110x110"
+           var size = "110x110";
            for(var i=0; i < venues.length; i++){
              var venue = {};
              venue.title = venues[i].name;
             //  venue.image = venues[i].specials.items.page.photo.prefix + size + venues[i].specials.items.page.photo.suffix;
             //  venue.distance =
-            venue.category = venues[i].categories[0] ? venues[i].categories[0].name : "none"
-             ;
+            venue.category = venues[i].categories[0] ? venues[i].categories[0].name : "none";
             //  venue.category_icon = venues[i].categories.icon.prefix
-             venue.currently_here = venues[i].hereNow.count;
-             app.venueArray.push(venue)
+            venue.currently_here = venues[i].hereNow.count ? venues[i].hereNow.count : 0;
+            app.venueArray.push(venue)
            }
            console.log(app.venueArray);
 
